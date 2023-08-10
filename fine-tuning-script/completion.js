@@ -1,9 +1,9 @@
 import { openai } from './api.js'
 
 const prompt =
-  'Give me a sample code that OT-2 transfer liquid from well A1 to well B1' // put your prompt here
+  'Create a description field in incident table in servicenow' // put your prompt here
 const maxTokens = 150
-const model = 'davinci:ft-opentrons-labworks-2023-04-20-19-15-42' // put your model id here
+const model = 'davinci:ft-personal-2023-08-10-10-37-12' // put your model id here
 const createCompletion = async () => {
   try {
     const response = await openai.createCompletion({
